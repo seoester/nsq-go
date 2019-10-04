@@ -22,7 +22,7 @@ type ProducerConfig struct {
 
 func (c *ProducerConfig) defaults() {
 	if len(c.Address) == 0 {
-		c.Address = "localhost:4151"
+		c.Address = "localhost:4150"
 	}
 
 	if c.MaxConcurrency == 0 {
